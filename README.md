@@ -53,7 +53,7 @@ O painel geoespacial interativo completo foi exportado e estruturado em HTML mod
 
 O projeto foi arquitetado utilizando Python moderno, priorizando bibliotecas de alta performance para tratamento de dados e visualização científica:
 
-* **Python 3.12+**
+* **Python 3**
 * **Pandas & NumPy:** Utilizados na estruturação de matrizes, modelagem estocástica de dados de fallback e manipulação vetorial dos microdados do Novo CAGED.
 * **Plotly Express & Graph Objects:** Motores gráficos de última geração responsáveis pela renderização geoespacial via *Scatter Mapbox*. A integração do `Graph Objects` permitiu a injeção de camadas de texto flutuantes contendo as siglas das UFs e os saldos formatados, enriquecendo a experiência do usuário.
 * **Kaleido:** Biblioteca de renderização estática assíncrona utilizada para converter objetos de visualização dinâmicos do navegador em arquivos de imagem física (`.png`) de alta definição para relatórios executivos.
